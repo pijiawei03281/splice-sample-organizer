@@ -16,15 +16,6 @@ The core logic of this tool relies on Dictionary Mapping and Pattern Recognition
 1. The Mapping Engine
 The script uses a nested dictionary structure called SAMPLE_MAP. Each key represents a musical category, and each value contains a list of associated keywords found in Splice's naming conventions.
 
-Python
-# Example of the logic
-SAMPLE_MAP = {
-    "Drums": {
-        "Kicks": ["kick", "bd"],
-        "Snares": ["snare", "sd"],
-        "Hats": ["hat", "hh", "hihat"]
-    }
-}
 2. Decision Logic
 The get_category function iterates through the dictionary. If a filename contains a keyword (e.g., "Snare"), the script assigns it to the corresponding path (Drums/Snares).
 
@@ -42,7 +33,7 @@ Plaintext
 
 ⚙️ How to Use
 Clone the Repository:
-git clone https://github.com/your-username/splice-sample-organizer.git
+git clone https://github.com/pijiawei03281/splice-sample-organizer.git
 
 Configure Paths: Open splice_organizer.py and update the SOURCE_DIR and EXPORT_DIR to match your local folders.
 
