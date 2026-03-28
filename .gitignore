@@ -1,0 +1,14 @@
+# 排除音訊檔案
+*.wav
+*.aif
+*.mp3
+*.flac
+
+# 排除打包產生的暫存檔
+build/
+dist/
+*.spec
+__pycache__/
+
+# 排除分類報告
+classification_report.txt
